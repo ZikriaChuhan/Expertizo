@@ -1,0 +1,42 @@
+.div1 {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+   }
+li a {
+   color: aqua;
+   text-align: center;
+   text-decoration: none;
+   margin: 10px; 
+  }
+li {
+ display: inline;
+}
+.div2 {
+    width: 50%;
+    margin: auto;
+}
+p {
+text-align: justify;
+}
+.div1 {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+   }
+li a {
+   color: aqua;
+   text-align: center;
+   text-decoration: none;
+   margin: 10px; 
+  }
+li {
+ display: inline;
+}
+.div2 {
+    width: 50%;
+    margin: auto;
+}
+p {
+text-align: justify;
+}

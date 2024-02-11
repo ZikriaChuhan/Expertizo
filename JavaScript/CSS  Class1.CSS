@@ -1,0 +1,25 @@
+.div1 {
+    width: 50%;
+    margin: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+img {
+    width: 200px;
+}
+.div3 {
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div4 {
+    width: 50%;
+    margin: auto;
+}
