@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment 05 MathExpressions</title>
+</head>
+<body>
+    
+
+    <Script>
+
+
+
+    const num1= Number(prompt("Please Enter First Number For Addition"));
+    const num2= Number(prompt("Please Enter Second Number For Addition"));
+    const sum = num1 + num2;
+
+    alert("Sum of " + num1 + " and " + num2 + " is " + sum );
+
+
+
+ 
+     const numSub1= Number(prompt("Please Enter First Number For Subraction"));
+    const numSub2= Number(prompt("Please Enter Second Number For Subraction"));
+    const sumSub = numSub1 - numSub2;
+
+    alert("Result of subracting " + numSub1 + " from " + numSub2 + " is " + sumSub );
+
+
+      const numMulti1= Number(prompt("Please Enter First Number For Multiplication"));
+    const numMulti2= Number(prompt("Please Enter Second Number For Multiplication"));
+    const sumMulti = numMulti1 * numMulti2;
+
+    alert("Result of Multiplication " + numMulti1 + " and " + numMulti2 + " is " + sumMulti );
+
+
+   
+    const numDiv1= Number(prompt("Please Enter First Number For Division"));
+    const numDiv2= Number(prompt("Please Enter Second Number For Division"));
+    const sumDiv = numDiv1 / numDiv2;
+
+    alert("Result of dividing " + numDiv1 + " by " + numDiv2 + " is " + sumDiv );
+
+
+    const numRem1= Number(prompt("Please Enter First Number For Division"));
+    const numRem2= Number(prompt("Please Enter Second Number For Division"));
+    const sumRem = numRem1 / numRem2;
+
+    alert("Remainder of dividing " + numRem1 + " by " + numRem2 + " is " + sumRem );
+
+
+   
+    let mathVal;
+    console.log("Value after variable declaration is " + mathVal);
+    mathVal = 3;
+    console.log("Initial value: " + mathVal);
+    mathVal++;
+    console.log("Value after increment: " + mathVal);
+    mathVal += 7;
+    console.log("Value after addition: " + mathVal);
+    mathVal--;
+    console.log("Value after decrement: " + mathVal);
+    mathVal %= 3 ;
+    console.log("The remainder is: " + mathVal);
+
+  
+   
+    const num_of_Tickets= Number(prompt("Please enter the number of Tickets \nCost of one Movie Ticket is 600pkr"));
+    const pirce_of_Tickets= 600 * num_of_Tickets;
+    console.log("Total cost to buy " + num_of_Tickets + " tickets to a movie is " + pirce_of_Tickets + " PKR");
+
+  
+     
+    
+    const number_Of_Table= Number(prompt("Please enter any number to display multiplication table"));
+ 
+    const content_Of_Table= number_Of_Table + " x 1" + " = " + number_Of_Table * 1 + "\n" +  number_Of_Table + " x 2" + " = " + number_Of_Table * 2 + "\n" +  number_Of_Table + " x 3" + " = " + number_Of_Table * 3 + "\n" +  number_Of_Table + " x 4" + " = " + number_Of_Table * 4  + "\n" +  number_Of_Table + " x 5" + " = " + number_Of_Table * 5  + "\n" +  number_Of_Table + " x 6" + " = " + number_Of_Table * 6  + "\n" +  number_Of_Table + " x 7" + " = " + number_Of_Table * 7  + "\n" +  number_Of_Table + " x 8" + " = " + number_Of_Table * 8  + "\n" +  number_Of_Table + " x 9" + " = " + number_Of_Table * 9  + "\n" +  number_Of_Table + " x 10" + " = " + number_Of_Table * 10 ;
+    console.log(content_Of_Table);
+
+ 
+
+   
+
+
+
+
+    const item_Price_1= Number(prompt("Price Of Item 1"));
+    const item_Qty_1= Number(prompt("Ordered quantity of item 1"));
+    const item_Price_2= Number(prompt("Price Of Item 2")); 
+    const item_Qty_2= Number(prompt("Ordered quantity of item 2"));
+    const shipping_Charges= 10;
+    const grand_Total= item_Price_1 * item_Qty_1 + item_Price_2 * item_Qty_2 + shipping_Charges;
+
+    console.log("Price of item 1 is: " + item_Price_1 * item_Qty_1 + " PKR " + "\nQuantity of item 1 is:  " + item_Qty_1 + "\nPrice of item 2 is: " + item_Price_2 * item_Qty_2 + " PKR" + "\nQuantity of item 2 is:  " + item_Qty_2 + "\nShipping Charges: " + shipping_Charges  + " PKR " + "\nTotal cost of your order is: " + grand_Total + " PKR" );
+
+
+   
+
+     const total_Marks= Number(prompt("Please Enter Total Marks"));
+     const obtain_Mark= Number(prompt("Please Enter Obtained Marks"));
+     const st_Percentage= obtain_Mark / total_Marks * 100;
+
+     console.log("Total Marks : " + total_Marks);
+     console.log("Marks Obtained: " + obtain_Mark);
+     console.log("Percentage: " + st_Percentage + "%");
+    
+     
+    
+     const pak_rupees= 104*10+28*25;
+     console.log("Total currency in PKR " + pak_rupees);
+      
+     
+   
+
+    let pi_Num=5 + 5 * 10 / 2;
+    console.log(pi_Num); 
+
+
+  
+
+    const current_Year=2023;
+    const birth_Year=1993;
+    const possible_age=current_Year - birth_Year ;
+    let cur_age= possible_age;
+    cur_age--;
+
+    
+    console.log("Current Year: " + current_Year);
+    console.log("Birth Year: " + birth_Year);
+    console.log("They are either " + cur_age + " or " + possible_age + " years old");
+
+
+
+
+    let a=10;
+    console.log("The value of a is: " + a);
+    ++a;
+    console.log("The value of ++a is: " + a);
+    console.log("Now the value of ++a is: " + a);
+    console.log("The value of a++ is: " + a);
+    a++;
+    console.log("Now the value of a is: " + a);
+    --a;
+    console.log("The value of --a is: " + a);
+    console.log("Now the value of a is: " + a);
+    console.log("The value of a-- is: " + a);
+    a--;
+    console.log("Now the value of a is: " + a);
+
+
+
+
+
+  
+
+  
+  const fav_food= "Oreo biscuits";
+  const my_age=18;
+  const max_age=50;
+  const estimated_amount=10;
+  const remaining_age= max_age - my_age ;
+  const total_spend_amount= remaining_age * estimated_amount;
+
+  console.log("Favourit Snack: " + fav_food);
+  console.log("Current Age: " + my_age);
+  console.log("Estimated Maximum Age: " + max_age);
+  console.log("Amount of snack per day: " + estimated_amount);
+  console.log("You will spend " +  total_spend_amount + " PKR  for " + fav_food + " to last you until the rip old age of " + max_age);
+
+
+
+    </Script>
+</body>
+</html>
