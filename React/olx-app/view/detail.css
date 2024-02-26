@@ -1,0 +1,137 @@
+.adDetailBox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .adInfoBox {
+    width: 65%;
+  }
+  
+  .adThumb img {
+    width: 100%;
+  }
+  
+  .adGallery {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .adGallery .lg-react-element {
+    width: 100%;
+  }
+  
+  .adGallery .lg-react-element a {
+    text-decoration: none;
+  }
+  
+  .adGallery img {
+    width: 18%;
+    border: #e1e1e1 4px solid;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .adThumb {
+    border: #000000 4px solid;
+    background: #000;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 500px;
+  }
+  .para {
+    font-size: 17px;
+  }
+  
+  .adDecription {
+    border: 1px solid #d8dfe0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .adDecription h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .adDecription h3 {
+    font-size: 24px;
+    color: #002f34;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .adContact {
+   
+    border: 1px solid #d8dfe0;
+    border-radius: 4px;
+    padding: 20px;
+    height: 224px;
+  }
+  
+  .avatar-sec {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-sec img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: 0 -1px;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+  
+  
+  .avatar-sec h4 {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  
+  .avatar-sec p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  .btnDark {
+    background-color: #002f34;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 8px 0;
+    border: none;
+   margin-bottom: 15px;
+   text-align: center;
+  }
+  
+  .btnDark img {
+    height: 30px;
+    filter: brightness(0) invert(2);
+    vertical-align: middle;
+  }
+  
+  .btnLight {
+    border: #002f34 2px solid;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 8px 0;
+   margin-bottom: 15px;
+   text-align: center;
+  }
+  
+  .btnLight img {
+    height: 30px;
+    filter: brightness(0) invert(2);
+    vertical-align: middle;
+  }
+  
+ 
